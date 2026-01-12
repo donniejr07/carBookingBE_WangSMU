@@ -1,0 +1,37 @@
+# Logs & Cache
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+nbproject/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# Uploads (uncomment if needed)
+# assets/uploads/*
+# !assets/uploads/.gitkeep
